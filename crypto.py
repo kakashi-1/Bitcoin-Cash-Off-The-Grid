@@ -30,7 +30,7 @@
 import threading
 import ctypes
 
-libssl = ctypes.cdll.LoadLibrary("libssl.so") #Will be different on windows
+libssl = ctypes.cdll.LoadLibrary("/usr/local/Cellar/openssl/1.0.1g/lib/libssl.dylib") #Will be different on windows
 
 
 
